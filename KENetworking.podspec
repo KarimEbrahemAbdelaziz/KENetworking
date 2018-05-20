@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KENetworking'
   s.version          = '0.1.0'
-  s.summary          = 'KENetworking is tiny netwroking library based on Alamofire, ObjectMapper, PromiseKit. It built for basic usage for netwroking and calling APIs (till now).'
+  s.summary          = 'KENetworking is tiny netwroking library based on Alamofire, ObjectMapper, PromiseKit.'
 
   s.dependency 'Alamofire'
   s.dependency 'ObjectMapper'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 This tiny networki library KENetworking is built as practice on using PromiseKit with Alamofire, helping me with my upcomming development projects to focus on models. It is calling apis with using of promises rather comlpetion handlers that will allow me add more functionality to it easly.
                        DESC
 
-  s.homepage         = 'https://github.com/karimabdelazizmansour@gmail.com/KENetworking'
+  s.homepage         = 'https://github.com/KarimEbrahemAbdelaziz/KENetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Karim Ebrahem' => 'karimabdelazizmansour@gmail.com' }

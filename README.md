@@ -15,6 +15,7 @@ KENetworking is a tiny network pod to improve my ability to foucs on main goals 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+If you wanna get look at what abilities Promises have and can be loaded to this pod, Please look at [PromiseKit](https://github.com/mxcl/PromiseKit)
 
 ## Requirements
 

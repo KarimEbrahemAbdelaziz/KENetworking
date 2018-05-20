@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.7.0)
+  - KENetworking (0.1.0):
+    - Alamofire
+    - ObjectMapper
+    - PromiseKit (~> 6.0)
+    - PromiseKit/Alamofire (~> 6.0)
+  - ObjectMapper (3.1.0)
+  - PromiseKit (6.2.1):
+    - PromiseKit/CorePromise (= 6.2.1)
+    - PromiseKit/Foundation (= 6.2.1)
+    - PromiseKit/UIKit (= 6.2.1)
+  - PromiseKit/Alamofire (6.2.1):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (6.2.1)
+  - PromiseKit/Foundation (6.2.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.2.1):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - Alamofire
+  - KENetworking (from `../`)
+  - ObjectMapper
+  - PromiseKit (~> 6.0)
+  - PromiseKit/Alamofire (~> 6.0)
+
+EXTERNAL SOURCES:
+  KENetworking:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  KENetworking: c1f42edf227b1e9f7eff912eee0e94c74b4ea50b
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  PromiseKit: edaca6f0a7ed73b08c287600537d13867a7fabc7
+
+PODFILE CHECKSUM: 44682e76001a0558904dfc695e2433553ec6082f
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,6 @@
+framework module KENetworking {
+  umbrella header "KENetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

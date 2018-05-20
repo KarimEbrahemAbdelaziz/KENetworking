@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43BFE2CD20B210D300B5CF0F /* DataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFE2CC20B210D300B5CF0F /* DataRouter.swift */; };
+		43BFE2CF20B210E200B5CF0F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFE2CE20B210E200B5CF0F /* DataModel.swift */; };
 		5FC170D01768D0FED2E43411 /* Pods_KENetworking_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A82C78E2B65031FEBEE57E4 /* Pods_KENetworking_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,8 +32,10 @@
 /* Begin PBXFileReference section */
 		2A82C78E2B65031FEBEE57E4 /* Pods_KENetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KENetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		315C94E9F6C87C9A3382206C /* Pods-KENetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KENetworking_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KENetworking_Tests/Pods-KENetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		43BFE2CC20B210D300B5CF0F /* DataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRouter.swift; sourceTree = "<group>"; };
+		43BFE2CE20B210E200B5CF0F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		55C784BA7D7409E56E51ED4D /* Pods-KENetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KENetworking_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KENetworking_Tests/Pods-KENetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5EEC20EE3431530110C7E558 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5EEC20EE3431530110C7E558 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KENetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KENetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +47,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61C946EE9B6F6F9C03FAA12D /* Pods_KENetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KENetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		726F40E8986499C2135D95FD /* KENetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KENetworking.podspec; path = ../KENetworking.podspec; sourceTree = "<group>"; };
-		894D6763287BFEC43EB98106 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		726F40E8986499C2135D95FD /* KENetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KENetworking.podspec; path = ../KENetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		894D6763287BFEC43EB98106 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A147A7C51C87B827BB11B165 /* Pods-KENetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KENetworking_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KENetworking_Example/Pods-KENetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A79F55ABF35A13717BF221C0 /* Pods-KENetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KENetworking_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KENetworking_Example/Pods-KENetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43BFE2CA20B210B000B5CF0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43BFE2CE20B210E200B5CF0F /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43BFE2CB20B210BB00B5CF0F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				43BFE2CC20B210D300B5CF0F /* DataRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +113,8 @@
 		607FACD21AFB9204008FA782 /* Example for KENetworking */ = {
 			isa = PBXGroup;
 			children = (
+				43BFE2CB20B210BB00B5CF0F /* Networking */,
+				43BFE2CA20B210B000B5CF0F /* Models */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -304,11 +326,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KENetworking_Example/Pods-KENetworking_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/KENetworking/KENetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KENetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,6 +398,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BFE2CD20B210D300B5CF0F /* DataRouter.swift in Sources */,
+				43BFE2CF20B210E200B5CF0F /* DataModel.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

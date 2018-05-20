@@ -1,5 +1,10 @@
 use_frameworks!
 
+pod 'Alamofire'
+pod 'ObjectMapper'
+pod 'PromiseKit/Alamofire', '~> 6.0'
+pod 'PromiseKit', '~> 6.0'
+
 target 'KENetworking_Example' do
   pod 'KENetworking', :path => '../'
 

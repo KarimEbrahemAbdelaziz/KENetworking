@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KENetworking_Example' do
+  pod 'KENetworking', :path => '../'
+
+  target 'KENetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -10,7 +10,7 @@
 
 ## KENetworking 
 
-KENetworking is a tiny network pod to improve my ability to foucs on main goals of application while development, this network layer style is inspired by 
+KENetworking is a tiny network pod to improve my ability to foucs on main goals of application while development, this network layer style is inspired by [Yoloabdo](https://github.com/Yoloabdo/RebootingNetwork) that introduced in [SwiftCairo Meetup] (https://github.com/SwiftCairo/MeetupSessions) and i added my flavor to it :D
 
 ## Example
 

@@ -22,7 +22,7 @@ pod 'KENetworking'
 
 ## Author
 
-karimabdelazizmansour@gmail.com, karimabdelazizmansour@gmail.com
+Karim Ebrahem, karimabdelazizmansour@gmail.com
 
 ## License
 
